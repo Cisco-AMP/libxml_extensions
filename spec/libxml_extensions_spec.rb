@@ -8,6 +8,15 @@ describe LibxmlExtensions::DecoratedDocument do
   end
 
   describe '#add_xml_node_and_value' do
+    it 'doesnt replace intermediate nodes in the xpath' do
+      doc.root << LibXML::XML::Node.new('existing').tap{|node|
+        node << LibXML::XML::Node.new('a')
+      }
+
+      doc.add_xml_node_and_value('existing/b', 10)
+      expect(doc.find_first('/root/existing/a')).not_to be_nil
+      expect(doc.find_first('/root/existing/b').inner_xml).to eql("10")
+    end
     it 'trails the leading slash' do
       doc.add_xml_node_and_value('/path', 10)
       expect(doc.find_first('path').inner_xml).to eql("10")
