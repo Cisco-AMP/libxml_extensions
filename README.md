@@ -1,8 +1,9 @@
 # LibxmlExtensions
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/libxml_extensions`. To experiment with that code, run `bin/console` for an interactive prompt.
+Decorates LibXML::XML::Document with a method to add arbitrary XPath and
+assoiciated values
 
-TODO: Delete this and the text above, and describe your gem
+[![Build Status](https://travis-ci.org/Cisco-AMP/libxml_extensions.svg?branch=master)](https://travis-ci.org/Cisco-AMP/libxml_extensions)
 
 ## Installation
 
