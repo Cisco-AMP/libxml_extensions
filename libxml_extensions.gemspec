@@ -11,14 +11,14 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Provides methods to add arrays and hashes to LibXML::Node}
   spec.description   = %q{Allows shortcut APIs for LibXML Node to add arrays and hashes}
-  spec.homepage      = "https://code.engine.sourcefire.com/Cloud/libxml_extensions"
+  spec.homepage      = "https://github.com/Cisco-AMP/libxml_extensions"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://code.engine.sourcefire.com/Cloud/libxml_extensions"
+    spec.metadata["source_code_uri"] = "https://github.com/Cisco-AMP/libxml_extensions"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
