@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
 
-  spec.add_dependency 'libxml-ruby', '2.8.0'
+  spec.add_dependency 'libxml-ruby', '~> 3.0'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
