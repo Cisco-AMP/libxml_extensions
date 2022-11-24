@@ -1,3 +1,5 @@
+### Note: This library is no longer going to be contributed to
+
 # LibxmlExtensions
 
 Decorates LibXML::XML::Document with a method to add arbitrary XPath and
