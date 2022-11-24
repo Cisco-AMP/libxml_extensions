@@ -1,4 +1,4 @@
-### Note: This library is no longer going to be contributed to
+### Note: This library is no longer going to be updated/contributed to
 
 # LibxmlExtensions
 
